@@ -58,7 +58,7 @@ function SignupForm({ registerUser }) {
             {alerts.length > 0 && <AlertList alerts={alerts} />}
             <fieldset>
               <div className="row">
-                <div className="col">
+                <div className="col-12 col-sm-4 col-md-6">
                   <label htmlFor="username" className="form-label">Username</label>
                   <input
                     required
@@ -69,7 +69,7 @@ function SignupForm({ registerUser }) {
                     value={formData.username}
                     aria-label="username" />
                 </div>
-                <div className="col">
+                <div className="col-12 col-sm-4 col-md-6">
                   <label htmlFor="password" className="form-label">Password</label>
                   <input
                     required
@@ -82,9 +82,8 @@ function SignupForm({ registerUser }) {
                     autoComplete="off"
                     type="password" />
                 </div>
-              </div>
-              <div className="row">
-                <div className="col">
+
+                <div className="col-12 col-sm-4 col-md-6">
                   <label htmlFor="firstName" className="form-label">First Name</label>
                   <input
                     required
@@ -95,7 +94,7 @@ function SignupForm({ registerUser }) {
                     value={formData.firstName}
                     aria-label="first name" />
                 </div>
-                <div className="col">
+                <div className="col-12 col-sm-4 col-md-6">
                   <label htmlFor="lastName" className="form-label">Last Name</label>
                   <input
                     required
@@ -106,9 +105,8 @@ function SignupForm({ registerUser }) {
                     value={formData.lastName}
                     aria-label="last name" />
                 </div>
-              </div>
-              <div className="row">
-                <div className="col">
+
+                <div className="col-12 col-sm-4 col-md-6">
                   <label htmlFor="email" className="form-label">Email</label>
                   <input
                     required
