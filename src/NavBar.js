@@ -74,6 +74,7 @@ function NavBar({ logoutUser }) {
             </NavItem>
             <NavItem>
               <NavLink
+                href="/"
                 onClick={logoutUser}>
                 Logout
               </NavLink>
