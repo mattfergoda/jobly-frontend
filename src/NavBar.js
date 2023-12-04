@@ -104,7 +104,7 @@ function NavBar({ logoutUser }) {
 
   return (
     <div className="NavBar">
-      <Navbar expand={"md"} dark className="bg-primary">
+      <Navbar dark className="bg-primary">
         <NavbarBrand href="/">
           Jobly
         </NavbarBrand>

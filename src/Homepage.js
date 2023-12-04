@@ -30,8 +30,10 @@ function Homepage() {
   }
 
   return (
-    <div className="Homepage text-center bg-image background jumbotron" >
-      <div className="justify-content-center ">
+    <div
+      className="Homepage background text-center d-flex
+       align-items-center justify-content-center min-vh-100" >
+      <div>
         <h1 className="text-light display-1">Jobly</h1>
         {renderHomepageText()}
       </div>
