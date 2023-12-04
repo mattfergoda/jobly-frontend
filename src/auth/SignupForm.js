@@ -49,7 +49,7 @@ function SignupForm({ registerUser }) {
   }
 
   return (
-    <div className="SignupForm bg-image background">
+    <div className="SignupForm bg-image background min-vh-100">
 
       <div className="card bg-secondary col-md-4 offset-md-4">
         <div className="card-body m-3">

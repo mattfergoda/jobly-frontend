@@ -48,7 +48,7 @@ function LoginForm({ loginUser }) {
   }
 
   return (
-    <div className="LoginForm bg-image background">
+    <div className="LoginForm bg-image background min-vh-100">
 
       <div className="card bg-secondary col-md-4 offset-md-4">
         <div className="card-body m-3">
