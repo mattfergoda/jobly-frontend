@@ -46,6 +46,7 @@ class JoblyApi {
       }
       else{
         console.log(error.message)
+        // eslint-disable-next-line
         throw [error.message];
       }
 

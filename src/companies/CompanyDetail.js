@@ -38,7 +38,8 @@ function CompanyDetail() {
       console.log("CompanyDetail. updating companyDetail=", companyDetail);
     }
     fetchCompanyDetail();
-  }, [ ]);
+    // eslint-disable-next-line
+  }, []);
 
   if (errors.length > 0) {
     return <NotFound item={companyHandle} />
