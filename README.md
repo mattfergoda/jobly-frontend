@@ -1,6 +1,8 @@
 # Jobly
 
-A React application where authenticated users can see job postings and companies.
+A React application where authenticated users can see job postings and companies. Styled using Bootstrap and some [Reactstrap](https://github.com/reactstrap/reactstrap) styled components.
+
+[Live Demo](https://jobly.demo.mattfergoda.me/)
 
 [Backend Repo](https://github.com/mattfergoda/express-jobly)
 
