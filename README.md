@@ -6,6 +6,9 @@ A React application where authenticated users can see job postings and companies
 
 [Backend Repo](https://github.com/mattfergoda/express-jobly)
 
+## Component Hierarchy
+<img src="jobly-component-hierarchy.png">
+
 ## Available Scripts
 
 In the project directory, you can run:
